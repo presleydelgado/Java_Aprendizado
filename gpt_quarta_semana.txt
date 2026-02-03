@@ -1,0 +1,92 @@
+🟢 Dia 22 — Reforço de método + parâmetro
+
+Exercício:
+
+Crie um método que receba um int
+
+O método imprime:
+
+o número
+
+o número ao quadrado
+
+Exemplo mental:
+
+entra 5 → sai 5 e 25
+
+🟢 Dia 23 — Método com return
+
+Exercício:
+
+Método recebe dois números
+
+Retorna a soma
+
+main imprime o resultado
+
+Objetivo:
+👉 entender quem calcula e quem mostra
+
+🟢 Dia 24 — Array simples
+
+Exercício:
+
+Crie um array de int
+
+Método recebe o array
+
+Imprime todos os valores
+
+Nada além disso.
+
+🟢 Dia 25 — Array + return
+
+Exercício:
+
+Método recebe um array de int
+
+Retorna a soma de todos os elementos
+
+main imprime o resultado
+
+Sem média, sem condição extra.
+
+🟢 Dia 26 — String + método
+
+Exercício:
+
+Método recebe uma String
+
+Retorna essa string em maiúsculo
+
+main imprime
+
+Objetivo:
+👉 reforçar que método transforma dados
+
+🟢 Dia 27 — Array de String
+
+Exercício:
+
+Array de nomes
+
+Método recebe o array
+
+Imprime um por linha
+
+Sem ordenação.
+Sem filtro.
+
+🟢 Dia 28 — Integração leve
+
+Exercício:
+
+Crie:
+
+um array de números
+
+um método que soma
+
+um método que imprime o resultado
+
+Separação clara de responsabilidades.

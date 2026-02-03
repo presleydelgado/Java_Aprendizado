@@ -1,0 +1,178 @@
+🗓️ SEMANA NOVA — DIAS 44 a 50
+
+(7 dias — no seu ritmo de 15 a 30 minutos)
+
+Objetivo geral da semana:
+
+dominar return de vez
+
+ganhar segurança com parâmetros
+
+aprender a montar “blocos que cooperam”
+
+parar de travar ao começar
+
+🔹 Dia 44 — Contar números pares
+
+Objetivo: filtro + contador
+
+Enunciado:
+
+método recebe int[]
+
+retorna quantos números são pares no array
+
+main imprime o resultado
+
+Exemplo mental:
+{1,2,3,4,6} → retorna 3
+
+Conceito treinado:
+
+for
+
+if
+
+contador
+
+return
+
+🔹 Dia 45 — Contar números maiores que X
+
+Objetivo: parâmetro extra + lógica condicional
+
+Enunciado:
+
+método recebe:
+
+int[] array
+
+int limite
+
+retorna quantos números são maiores que o limite
+
+Exemplo:
+array {5,10,20,3}, limite 8 → retorna 2
+
+Conceito:
+
+dois parâmetros
+
+comparação dinâmica
+
+🔹 Dia 46 — Soma apenas dos ímpares
+
+Objetivo: seleção + acumulação
+
+Enunciado:
+
+método recebe int[]
+
+retorna a soma apenas dos números ímpares
+
+Exemplo:
+{1,2,3,4,5} → retorna 1+3+5 = 9
+
+Conceito:
+
+% 2 != 0
+
+soma
+
+return
+
+🔹 Dia 47 — Encontrar índice de um número
+
+Objetivo: retorno mais inteligente
+
+Enunciado:
+
+método recebe:
+
+int[] array
+
+int valor
+
+retorna:
+
+posição (índice) onde o número aparece
+
+ou -1 se não existir
+
+Exemplo:
+array {5,8,10}, buscar 8 → retorna 1
+buscar 3 → retorna -1
+
+Conceito MUITO importante:
+
+retorno significativo
+
+controle de fluxo
+
+🔹 Dia 48 — Verificar se todos são positivos
+
+Objetivo: boolean mais avançado
+
+Enunciado:
+
+método recebe int[]
+
+retorna:
+
+true se TODOS forem positivos
+
+false se algum for zero ou negativo
+
+Exemplo:
+{1,5,10} → true
+{1,-2,3} → false
+
+Conceito:
+
+validação
+
+retorno antecipado
+
+🔹 Dia 49 — Converter array para caixa baixa
+
+Objetivo: consolidar transformação em String[]
+
+Enunciado:
+
+método recebe String[]
+
+devolve novo array com tudo em minúsculo
+
+Usar:
+
+.toLowerCase()
+
+Conceito:
+
+manipulação de string
+
+laço
+
+retorno de array
+
+🔹 Dia 50 — Repetição consciente (importantíssimo)
+
+Escolher UM exercício dos dias 44–49 e:
+
+refazer do zero
+
+sem olhar código antigo
+
+sem pressa
+
+focar em:
+
+assinatura
+
+parâmetros
+
+retorno
+
+lógica
+
+Esse dia é onde o aprendizado fixa de verdade. 

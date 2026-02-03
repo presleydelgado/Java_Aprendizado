@@ -1,0 +1,94 @@
+✅ Dia 51 — Métodos com retorno
+
+Objetivo: entender melhor return.
+
+Exercícios:
+
+Crie um método que receba dois números e retorne o maior.
+
+Crie um método que receba um número e retorne true se for par.
+
+Crie um método que receba a idade de uma pessoa e retorne se ela é maior de idade.
+
+✅ Dia 52 — Métodos + Scanner
+
+Objetivo: usar entrada do usuário com métodos.
+
+Exercícios:
+
+Método que recebe um número digitado pelo usuário e retorna o dobro.
+
+Método que recebe um nome e imprime:
+
+Olá, [nome]!
+
+
+Método que recebe dois números e mostra a média.
+
+✅ Dia 53 — Arrays (vetores)
+
+Objetivo: praticar listas simples.
+
+Exercícios:
+
+Criar um array com 5 números e mostrar todos.
+
+Somar todos os valores de um array.
+
+Descobrir o maior valor do array.
+
+✅ Dia 54 — Array com entrada do usuário
+
+Objetivo: popular arrays.
+
+Exercícios:
+
+Pedir 5 números ao usuário e guardar em um array.
+
+Mostrar apenas os números pares do array.
+
+Calcular a média dos valores digitados.
+
+✅ Dia 55 — ArrayList
+
+Objetivo: usar lista dinâmica.
+
+Exercícios:
+
+Criar uma ArrayList<String> de nomes.
+
+Adicionar 5 nomes digitados pelo usuário.
+
+Mostrar todos os nomes.
+
+Mostrar quantos nomes existem na lista.
+
+✅ Dia 56 — Classes simples
+
+Objetivo: entender classes e objetos.
+
+Exercícios:
+
+Criar classe Pessoa com:
+
+nome
+
+idade
+
+Criar método para mostrar os dados.
+
+Criar um objeto Pessoa no main e preencher os dados.
+
+✅ Dia 57 — Desafio mini-projeto
+
+Objetivo: juntar tudo.
+
+Faça um programa que:
+
+Crie uma ArrayList de pessoas.
+
+Permita cadastrar 3 pessoas (nome + idade).
+
+Mostre todas as pessoas cadastradas.
+
+Mostre quem é maior de idade. 

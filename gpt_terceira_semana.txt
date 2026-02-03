@@ -1,0 +1,82 @@
+🔹 Dia 15 — Array básico (reforço)
+
+Objetivo: tirar ferrugem sem esforço
+
+Criar um array de inteiros
+
+Preencher manualmente
+
+Imprimir com for
+
+Sem Scanner.
+Sem condição.
+
+🔹 Dia 16 — Array + condição simples
+
+Objetivo: lógica sem pressão
+
+Array de números
+
+Imprimir apenas os pares ou maiores que um valor fixo
+
+Valor fixo no código, nada de input.
+
+🔹 Dia 17 — Método simples (void)
+
+Objetivo: reforçar estrutura mental
+
+Criar um método void
+
+Método imprime algo simples
+
+Chamar no main
+
+Sem parâmetros.
+
+🔹 Dia 18 — Método com parâmetro
+
+Objetivo: reforçar entendimento do ()
+
+Método recebe um número
+
+Usa esse número dentro do método
+
+Chamada clara no main
+
+Nada de retorno.
+
+🔹 Dia 19 — Array + método
+
+Objetivo: integração leve
+
+Método recebe um array
+
+Método imprime os valores
+
+main cria e passa o array
+
+🔹 Dia 20 — Leitura de erro (natural)
+
+Objetivo: normalizar falha
+
+Fazer algo parecido com dias anteriores
+
+Se der erro:
+
+ler a mensagem
+
+ajustar
+
+Se não der erro, tudo bem
+
+Não forçar erro.
+
+🔹 Dia 21 — Revisão livre
+
+Objetivo: fechar sem cobrança
+
+Refaça um exercício da semana
+
+Do zero, se possível
+
+Simples

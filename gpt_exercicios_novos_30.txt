@@ -1,0 +1,103 @@
+🔹 Dia 30 — Método que retorna array (String)
+
+Objetivo: reforçar retorno de array
+
+Criar um método que retorna um array de nomes
+
+main recebe esse array
+
+main chama outro método para imprimir
+
+💡 Conceito: dados não nascem no main
+
+🔹 Dia 31 — Contar elementos
+
+Objetivo: lógica simples + retorno
+
+Método recebe um array
+
+Retorna:
+
+quantidade de elementos (length)
+
+main imprime o resultado
+
+💡 Conceito: método que devolve informação, não imprime
+
+🔹 Dia 32 — Soma com condição
+
+Objetivo: lógica um pouco mais refinada
+
+Método recebe array de números
+
+Soma apenas os números pares
+
+Retorna a soma
+
+main imprime
+
+💡 Conceito: processamento interno
+
+🔹 Dia 33 — Buscar valor no array
+
+Objetivo: raciocínio de busca
+
+Método recebe:
+
+array
+
+valor para buscar
+
+Retorna:
+
+true se encontrou
+
+false se não encontrou
+
+main imprime o resultado
+
+💡 Conceito: boolean + controle de fluxo
+
+🔹 Dia 34 — Método que transforma dados
+
+Objetivo: transformação sem imprimir
+
+Método recebe array de String
+
+Retorna:
+
+novo array com todos os textos em caixa alta
+
+main imprime o array retornado
+
+💡 Conceito: entrada → processamento → saída
+
+🔹 Dia 35 — Pequeno programa funcional
+
+Objetivo: juntar tudo de forma real
+
+Criar um array de nomes
+
+Criar métodos:
+
+imprimir nomes
+
+contar nomes
+
+main organiza tudo
+
+💡 Conceito: mini-programa coeso
+
+🔹 Dia 36 — Repetição consciente
+
+Objetivo: fixação (importantíssimo)
+
+Escolher UM exercício da semana
+
+Refazer do zero
+
+Sem olhar código antigo
+
+Sem pressa
+
+💡 Conceito: aprendizado real acontece aqui

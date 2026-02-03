@@ -1,0 +1,124 @@
+📅 Semana Nova — Dias 37 a 43
+
+Tema central:
+
+Consolidar return + parâmetros + lógica simples
+Sem aumentar complexidade estrutural.
+Só aumentar clareza mental.
+
+🔹 Dia 37 — Retornar o maior número
+
+Objetivo: lógica + retorno
+
+main cria um int[]
+
+Método recebe o array
+
+Percorre o array
+
+Retorna o maior número
+
+main imprime o resultado
+
+Conceito:
+método que calcula algo real.
+
+🔹 Dia 38 — Retornar o menor número
+
+Mesmo formato do dia 37, só muda a lógica:
+
+Retornar o menor número do array
+
+🔹 Dia 39 — Somar todos os números
+
+(versão limpa, sem if)
+
+Método recebe int[]
+
+Soma todos os valores
+
+Retorna a soma
+
+main imprime
+
+Aqui você vai perceber como isso ficou fácil comparado com o dia 32.
+
+🔹 Dia 40 — Contar nomes com mais de 5 letras
+
+Objetivo: condição + contador
+
+main cria String[] nomes
+
+Método recebe o array
+
+Conta quantos nomes têm length > 5
+
+Retorna esse número
+
+main imprime
+
+🔹 Dia 41 — Verificar se um valor existe no array
+
+(reprise consciente do dia 33)
+
+main cria int[]
+
+Define um número para buscar
+
+Método recebe:
+
+o array
+
+o número buscado
+
+Retorna true se existir, false se não
+
+main imprime o boolean
+
+⚠️ Sem print dentro do método.
+
+🔹 Dia 42 — Converter array de String para caixa alta
+
+(reprise consciente do dia 34)
+
+main cria String[]
+
+Método recebe o array
+
+Converte tudo para maiúsculo
+
+Retorna o novo array
+
+main imprime com Arrays.toString()
+
+🔹 Dia 43 — Repetição consciente (fixação)
+
+Escolher 1 exercício dessa semana e:
+
+refazer do zero
+
+sem olhar código antigo
+
+sem pressa
+
+focar só em:
+
+assinatura do método
+
+parâmetros
+
+tipo de retorno
+
+lógica interna
+
+🧠 Regra da semana (importantíssima)
+
+Se travar, sempre responda mentalmente:
+
+Quem cria os dados? → main
+
+Quem processa? → método
+
+O método devolve o quê? → int, boolean, String[], etc
+
+Quem imprime? → main 

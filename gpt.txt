@@ -1,0 +1,98 @@
+🗓️ Plano dos Próximos 7 Dias (Ciclo 2 – Consolidação)
+📌 Regras continuam valendo
+
+15 minutos cronometrados
+
+mesmo ritual (sentar → abrir → codar → fechar)
+
+nada de GitHub
+
+código feio permitido
+
+pesquisar permitido
+
+pensar pouco, fazer mais
+
+Se parecer fácil → ótimo
+Se parecer chato → perfeito
+Se parecer inútil → exatamente certo
+
+🔹 Dia 8 — Array com entrada do usuário
+
+Objetivo: juntar array + Scanner
+
+Crie um array (ex: tamanho 5)
+
+Use Scanner para preencher
+
+Imprima os valores com um laço
+
+Nada além disso.
+
+🔹 Dia 9 — Array + condição
+
+Objetivo: pensar sem complicar
+
+Use um array de números
+
+Imprima apenas os maiores que X (ex: > 10)
+
+Pode ser fixo, não precisa pedir X ao usuário.
+
+🔹 Dia 10 — Método com parâmetro
+
+Objetivo: perder o medo de “passar coisa”
+
+Crie um método que recebe um número
+
+O método imprime algo usando esse número
+
+Chame no main
+
+Sem retorno. Só void.
+
+🔹 Dia 11 — Método + laço
+
+Objetivo: combinar peças conhecidas
+
+Método que imprime números de 1 a 5
+
+Chame ele uma vez no main
+
+Não generalize. Não torne “flexível”.
+
+🔹 Dia 12 — Array + método
+
+Objetivo: leve integração
+
+Método que recebe um array
+
+Método imprime os elementos
+
+main cria o array e chama
+
+Se der erro, ótimo.
+
+🔹 Dia 13 — Mini erro proposital (sim, isso é exercício)
+
+Objetivo: normalizar erro
+
+Faça algo parecido com dias anteriores
+
+Se der erro, não reinicie
+
+Leia a exception
+
+Ajuste
+
+Mesmo que leve todo o tempo.
+
+🔹 Dia 14 — Revisão livre (1 exercício só)
+
+Objetivo: fechar ciclo sem orgulho
+
+Refaça um exercício da semana
+
+Sem olhar código antigo (se possível)
+
+Simples e direto
