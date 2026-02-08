@@ -1,0 +1,145 @@
+✅ Semana Nova (Dias 58–64)
+
+Foco:
+📦 classes
+📋 ArrayList
+🧠 lógica simples de programação orientada a objetos
+
+Tudo em nível iniciante — sem sobrecarga.
+
+✅ Dia 58 — Classe com lista interna
+
+🎯 Objetivo: classe que guarda dados
+
+Exercício
+
+Crie uma classe Agenda:
+
+Ela deve ter:
+
+ArrayList de nomes
+
+método adicionarNome(String nome)
+
+método mostrarNomes()
+
+No main:
+
+crie uma Agenda
+
+adicione 3 nomes
+
+mostre os nomes
+
+👉 Ideia-chave: a lista pertence à classe.
+
+✅ Dia 59 — Classe Produto
+
+🎯 Objetivo: objeto representando algo real
+
+Crie classe Produto:
+
+Atributos:
+
+nome
+
+preco
+
+Método:
+
+mostrarProduto()
+
+No main:
+
+criar 3 produtos
+
+guardar em ArrayList
+
+mostrar todos
+
+👉 Você começa a ver objetos como “coisas”.
+
+✅ Dia 60 — Carrinho de Compras
+
+🎯 Objetivo: classe que gerencia objetos
+
+Classe Carrinho:
+
+ArrayList de Produto
+
+método adicionarProduto(Produto p)
+
+método mostrarCarrinho()
+
+método calcularTotal()
+
+No main:
+
+criar carrinho
+
+adicionar produtos
+
+mostrar total
+
+👉 Aqui começa mentalidade de sistema.
+
+✅ Dia 61 — Classe Aluno
+
+Atributos:
+
+nome
+
+nota
+
+Métodos:
+
+mostrarDados()
+
+aprovadoOuNao() (nota ≥ 7)
+
+No main:
+
+criar lista de alunos
+
+mostrar quem foi aprovado
+
+👉 Introduz regra de negócio.
+
+✅ Dia 62 — Busca na lista
+
+Use classe Aluno.
+
+Faça método na classe Gerenciador:
+
+buscarAlunoPorNome(String nome)
+
+Se encontrar → mostrar dados
+Se não → dizer que não existe
+
+👉 Treina lógica de busca.
+
+✅ Dia 63 — Remover da lista
+
+Na classe Gerenciador:
+
+removerAluno(String nome)
+
+👉 Treina manipulação de lista.
+
+✅ Dia 64 — Mini-sistema completo
+
+🎯 Juntar tudo
+
+Sistema de alunos:
+
+Gerenciador deve:
+
+adicionar aluno
+
+listar alunos
+
+mostrar média das notas
+
+mostrar melhor aluno
+
+Sem pressa. Um método de cada vez. 
