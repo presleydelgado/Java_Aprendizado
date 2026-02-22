@@ -1,0 +1,138 @@
+🟩 Dia 65 — Contar aprovados
+Objetivo
+
+Treinar contagem com objetos.
+
+Exercício
+
+No sistema de alunos:
+
+Criar método no Gerenciador:
+
+✅ contarAprovados()
+
+Ele deve:
+
+percorrer lista
+
+contar quem tem nota ≥ 7
+
+mostrar total
+
+🟩 Dia 66 — Pior aluno
+Objetivo
+
+Treinar lógica de menor valor.
+
+Exercício
+
+Criar método:
+
+✅ piorAluno()
+
+Mesma lógica do melhor aluno, mas procurando a MENOR nota.
+
+🟩 Dia 67 — Busca por nome
+Objetivo
+
+Treinar busca em lista.
+
+Exercício
+
+Criar método:
+
+✅ buscarPorNome(String nome)
+
+Deve:
+
+ignorar maiúsc/minúsc (equalsIgnoreCase)
+
+mostrar aluno se encontrar
+
+avisar se não achar
+
+🟩 Dia 68 — Sistema de filmes 🎬
+Classe Filme
+
+Atributos:
+
+titulo
+
+duracao (minutos)
+
+Método:
+
+mostrarDados()
+
+Classe Catalogo
+
+Atributo:
+
+ArrayList de filmes
+
+Métodos:
+
+adicionarFilme
+
+listarFilmes
+
+mostrarFilmeMaisLongo
+
+🟩 Dia 69 — Média de duração
+
+Continuando filmes:
+
+✅ método que mostra a duração média dos filmes
+
+🟩 Dia 70 — Remover aluno
+Objetivo
+
+Aprender remoção.
+
+No Gerenciador:
+
+✅ removerPorNome(String nome)
+
+Se encontrar:
+
+remove da lista
+
+mostra "removido"
+
+Se não:
+
+"não encontrado"
+
+🟩 Dia 71 — Mini-desafio 🧠
+
+Sistema de produtos:
+
+Classe Produto
+
+nome
+
+preco
+
+Classe Loja
+
+ArrayList<Produto>
+
+Métodos:
+
+adicionarProduto
+
+listarProdutos
+
+produtoMaisCaro
+
+calcularTotal
+
+💡 Dica importante
+
+Continue fazendo como você está:
+
+✅ um método por vez
+✅ testa
+✅ depois faz outro
+
+Sem pressa. 
