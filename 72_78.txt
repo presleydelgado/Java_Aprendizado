@@ -1,0 +1,118 @@
+📅 Semana Nova — Dias 72 a 78
+✅ Dia 72 — Refatoração consciente
+
+Objetivo: aprender a melhorar código sem mudar o resultado.
+
+Pegue qualquer exercício antigo (alunos, filmes ou produtos) e:
+
+extraia a lógica repetida para métodos
+
+melhore nomes de variáveis
+
+melhore a saída do console
+
+📌 Nada novo. Só deixar mais bonito e legível.
+
+✅ Dia 73 — Relatório completo
+
+Sistema de alunos
+
+No Gerenciador, crie um método:
+
+mostrarRelatorio()
+
+Ele deve mostrar:
+
+total de alunos
+
+média geral
+
+melhor aluno
+
+pior aluno
+
+quantidade de aprovados
+
+📌 Você já sabe fazer tudo isso — agora é só juntar.
+
+✅ Dia 74 — Menu simples (sem loop infinito)
+
+Objetivo: simular interação.
+
+No main:
+
+Mostrar opções:
+
+1 - Adicionar aluno
+2 - Listar alunos
+3 - Mostrar média
+
+Executar uma opção apenas (sem while ainda)
+
+📌 Foco é organização, não interface.
+
+✅ Dia 75 — Busca flexível
+
+No sistema de filmes ou produtos:
+
+Crie método:
+
+buscarPorParteDoNome(String termo)
+
+Exemplo:
+
+termo: "toy"
+
+encontra: "Toy Story"
+
+📌 Dica: contains() + toLowerCase()
+
+✅ Dia 76 — Remoção com confirmação
+
+No sistema de alunos ou produtos:
+
+buscar por nome
+
+se encontrar:
+
+mostrar dados
+
+perguntar: "Deseja remover? (s/n)"
+
+📌 Aqui você treina fluxo de decisão.
+
+✅ Dia 77 — Estatísticas simples
+
+Escolha um sistema e implemente:
+
+quantos itens acima da média
+
+quantos abaixo da média
+
+📌 Esse dia fortalece muito a lógica.
+
+✅ Dia 78 — Mini-projeto livre
+
+Você escolhe um tema simples:
+
+biblioteca 📚
+
+agenda 📒
+
+estoque 🧾
+
+cadastro de jogos 🎮
+
+Regras:
+
+pelo menos 2 classes
+
+ArrayList
+
+adicionar
+
+listar
+
+pelo menos 1 regra de negócio
+
+📌 Esse dia é pra você provar pra si mesmo o quanto evoluiu.
