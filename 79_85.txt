@@ -1,0 +1,203 @@
+Dia 79 — Sistema de Alunos 🎓
+Classes
+
+Aluno (entidade)
+
+nome
+
+matricula
+
+nota
+
+Escola (serviço)
+
+ArrayList<Aluno> alunos
+
+Métodos
+
+adicionarAluno()
+
+listarAlunos()
+
+mostrarAprovados()
+
+Regra de negócio
+
+Aluno aprovado se nota >= 7
+
+
+
+
+Dia 80 — Controle de Produtos 🛒
+Classes
+
+Produto
+
+nome
+
+preço
+
+quantidade
+
+Estoque
+
+ArrayList<Produto> produtos
+
+Métodos
+
+adicionarProduto()
+
+listarProdutos()
+
+calcularValorTotalEstoque()
+
+Regra de negócio
+
+Não permitir preço negativo
+
+
+
+
+Dia 81 — Agenda de Contatos 📞
+Classes
+
+Contato
+
+nome
+
+telefone
+
+Agenda
+
+ArrayList<Contato> contatos
+
+Métodos
+
+adicionarContato()
+
+listarContatos()
+
+buscarContato(nome)
+
+Regra de negócio
+
+Não permitir telefone vazio
+
+
+
+
+Dia 82 — Sistema de Filmes 🎬
+Classes
+
+Filme
+
+titulo
+
+genero
+
+nota
+
+Catalogo
+
+ArrayList<Filme> filmes
+
+Métodos
+
+adicionarFilme()
+
+listarFilmes()
+
+mostrarFilmesBemAvaliados()
+
+Regra
+
+Filmes bons: nota >= 8
+
+
+
+
+Dia 83 — Lista de Tarefas ✅
+Classes
+
+Tarefa
+
+descricao
+
+concluida (boolean)
+
+GerenciadorTarefas
+
+ArrayList<Tarefa> tarefas
+
+Métodos
+
+adicionarTarefa()
+
+listarTarefas()
+
+marcarComoConcluida()
+
+Regra
+
+Não permitir descrição vazia
+
+
+
+
+Dia 84 — Sistema de Pedidos 🍔
+Classes
+
+Pedido
+
+nomeCliente
+
+valor
+
+Restaurante
+
+ArrayList<Pedido> pedidos
+
+Métodos
+
+adicionarPedido()
+
+listarPedidos()
+
+calcularFaturamento()
+
+Regra
+
+Valor mínimo > 0
+
+
+
+
+Dia 85 — Biblioteca Melhorada 📚
+
+Uma evolução do que você já fez.
+
+Classes
+
+Livro
+
+titulo
+
+autor
+
+emprestado (boolean)
+
+Biblioteca
+
+ArrayList<Livro> livros
+
+Métodos
+
+adicionarLivro()
+
+listarLivros()
+
+emprestarLivro(titulo)
+
+Regra
+
+Não permitir emprestar livro já emprestado
