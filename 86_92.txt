@@ -1,0 +1,161 @@
+📅 Dia 86 — Sistema de Alunos
+Classes
+
+Aluno
+
+nome
+nota
+
+Turma
+
+ArrayList<Aluno> alunos
+Métodos
+adicionarAluno()
+listarAlunos()
+mostrarAprovados()
+Regra
+
+Aluno aprovado se:
+
+nota >= 7
+
+Saída exemplo:
+
+Aprovado: João
+Aprovado: Maria
+
+
+
+📅 Dia 87 — Controle de Estoque
+Classes
+
+Produto
+
+nome
+quantidade
+
+Estoque
+
+ArrayList<Produto> produtos
+Métodos
+adicionarProduto()
+listarProdutos()
+produtosEmFalta()
+Regra
+
+Mostrar produtos com:
+
+quantidade <= 0
+
+
+
+📅 Dia 88 — Sistema de Clientes
+Classes
+
+Cliente
+
+nome
+idade
+
+CadastroClientes
+
+ArrayList<Cliente> clientes
+Métodos
+adicionarCliente()
+listarClientes()
+mostrarMaioresDeIdade()
+Regra
+idade >= 18
+
+
+
+📅 Dia 89 — Sistema de Carrinho de Compras 🛒
+Classes
+
+Item
+
+nome
+preco
+
+Carrinho
+
+ArrayList<Item> itens
+Métodos
+adicionarItem()
+listarItens()
+calcularTotal()
+Saída esperada
+Notebook - 3500
+Mouse - 80
+Total: 3580
+
+
+
+📅 Dia 90 — Sistema de Funcionários
+Classes
+
+Funcionario
+
+nome
+salario
+
+Empresa
+
+ArrayList<Funcionario> funcionarios
+Métodos
+adicionarFuncionario()
+listarFuncionarios()
+mostrarSalariosAltos()
+Regra
+
+Mostrar salários:
+
+>= 5000
+
+
+
+📅 Dia 91 — Sistema de Cursos
+Classes
+
+Curso
+
+nome
+cargaHoraria
+
+PlataformaCursos
+
+ArrayList<Curso> cursos
+Métodos
+adicionarCurso()
+listarCursos()
+cursosLongos()
+Regra
+
+Curso longo:
+
+cargaHoraria >= 40
+
+
+
+
+📅 Dia 92 — Sistema de Notas (primeiro mini desafio)
+Classes
+
+Nota
+
+nomeAluno
+nota
+
+Boletim
+
+ArrayList<Nota> notas
+Métodos
+adicionarNota()
+listarNotas()
+calcularMedia()
+Saída exemplo
+João - 8
+Maria - 6
+Pedro - 9
+
+Média da turma: 7.6
