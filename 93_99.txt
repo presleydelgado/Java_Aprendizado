@@ -1,0 +1,149 @@
+📅 Semana 2 — Nível Up (Interativo)
+📅 Dia 93 — Cadastro de Clientes (com menu)
+
+💡 Baseado no que você já fez, mas agora interativo
+
+Requisitos:
+Menu:
+1 - Adicionar cliente
+2 - Listar clientes
+3 - Mostrar maiores de idade
+0 - Sair
+Usar Scanner
+Usar while (loop do menu)
+
+👉 Esse é MUITO importante — base de tudo
+
+📅 Dia 94 — Carrinho de Compras Interativo 🛒
+Menu:
+1 - Adicionar item
+2 - Listar itens
+3 - Calcular total
+0 - Sair
+Desafio extra:
+Usuário digita nome e preço
+
+👉 Aqui você junta:
+
+entrada de dados
+sua lógica do Dia 89
+
+
+
+
+📅 Dia 95 — Sistema de Notas com Média Dinâmica
+Menu:
+1 - Adicionar nota
+2 - Listar notas
+3 - Ver média
+0 - Sair
+Desafio:
+Mostrar média atual SEMPRE atualizada
+
+👉 reforça:
+
+cálculo
+lógica dinâmica
+
+
+
+📅 Dia 96 — Filtro de Funcionários (interativo)
+Menu:
+1 - Adicionar funcionário
+2 - Listar todos
+3 - Mostrar salários >= valor digitado
+0 - Sair
+
+💡 Usuário escolhe o valor
+
+👉 Aqui você começa a:
+
+usar parâmetro dinâmico
+não deixar regra fixa
+
+
+
+📅 Dia 97 — Buscar Cliente 🔍
+Menu:
+1 - Adicionar cliente
+2 - Listar clientes
+3 - Buscar cliente por nome
+0 - Sair
+Desafio:
+Se encontrar → mostrar dados
+Se não → "Cliente não encontrado"
+
+👉 Isso é MUITO usado no mundo real
+
+
+
+
+📅 Dia 98 — Remover Item
+Base: Carrinho
+Menu:
+1 - Adicionar item
+2 - Listar itens
+3 - Remover item pelo nome
+0 - Sair
+
+👉 Aqui você aprende:
+
+remover do ArrayList
+comparar String
+
+💡 dica: usar .equals()
+
+
+
+
+📅 Dia 99 — Mini Sistema Completo (Desafio final da semana)
+
+💥 Junta TUDO
+
+Sistema:
+
+Pode escolher um:
+
+clientes
+produtos
+notas
+Menu:
+1 - Adicionar
+2 - Listar
+3 - Buscar
+4 - Remover
+5 - Função extra (ex: média, filtro, etc)
+0 - Sair
+
+👉 Esse é o mais importante da semana
+
+🧠 Regras da semana (IMPORTANTE)
+❌ NÃO fazer:
+só métodos com print
+código sem menu
+código sem interação
+✅ FAZER:
+usar Scanner
+usar while
+usar switch
+separar classes (como você já faz)
+🔥 Dica de OURO (isso vai te ajudar MUITO)
+
+Estrutura base do menu:
+
+Scanner sc = new Scanner(System.in);
+int opcao;
+
+do {
+    System.out.println("1 - ...");
+    System.out.println("0 - Sair");
+
+    opcao = sc.nextInt();
+
+    switch(opcao){
+        case 1:
+            // ação
+            break;
+    }
+
+} while(opcao != 0);
