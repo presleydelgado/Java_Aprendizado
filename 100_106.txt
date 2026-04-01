@@ -1,0 +1,114 @@
+📅 Dia 100 — Sistema de Login Simples 🔐
+Menu:
+1 - Cadastrar usuário
+2 - Fazer login
+3 - Listar usuários
+0 - Sair
+Regras:
+Usuário tem:
+nome
+senha
+Login só funciona se nome E senha baterem
+
+👉 você vai usar:
+
+equals
+lógica dupla (&&)
+
+
+
+📅 Dia 101 — Sistema de Tarefas 📋
+Menu:
+1 - Adicionar tarefa
+2 - Listar tarefas
+3 - Marcar como concluída
+4 - Remover tarefa
+0 - Sair
+Classe:
+descrição
+concluída (boolean)
+
+👉 novidade:
+
+usar boolean
+mudar estado do objeto
+
+
+
+📅 Dia 102 — Estoque com Quantidade 📦
+Menu:
+1 - Adicionar produto
+2 - Listar produtos
+3 - Atualizar quantidade
+4 - Produtos em falta (<= 0)
+0 - Sair
+
+👉 novidade:
+
+alterar valor dentro do objeto
+não só adicionar/remover
+
+
+
+📅 Dia 103 — Sistema de Notas (com aprovação)
+Menu:
+1 - Adicionar nota
+2 - Listar notas
+3 - Mostrar média
+4 - Mostrar aprovados
+0 - Sair
+Regra:
+aprovado ≥ 7
+
+👉 reforça:
+
+filtro
+lógica combinada
+
+
+
+📅 Dia 104 — Sistema de Busca Parcial 🔍
+Menu:
+1 - Adicionar nome
+2 - Listar nomes
+3 - Buscar por parte do nome
+0 - Sair
+Exemplo:
+busca: "jo"
+retorna: João, Jonas
+
+👉 novidade:
+
+.contains()
+
+
+
+📅 Dia 105 — Sistema com Limite ⚠️
+Exemplo: Carrinho com limite
+Regras:
+máximo 5 itens
+se tentar adicionar mais → erro
+
+👉 novidade:
+
+controle de limite
+validação
+
+
+
+📅 Dia 106 — Mini Sistema 2 (Desafio final)
+💥 igual ao Dia 99, mas melhorado
+
+Deve ter:
+adicionar
+listar
+buscar
+remover
+atualizar algo (novo)
+validações (novo)
+
+👉 escolha:
+
+tarefas (recomendado)
+estoque
+usuários
