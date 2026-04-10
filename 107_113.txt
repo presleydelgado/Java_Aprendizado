@@ -1,0 +1,118 @@
+📅 Dia 107 — Sistema com Edição ✏️
+
+Base: seu sistema de tarefas
+
+Menu:
+
+1 - Adicionar tarefa
+2 - Listar tarefas
+3 - Editar tarefa
+4 - Remover tarefa
+0 - Sair
+
+Regra:
+Editar permite mudar nome OU objetivo
+
+👉 novidade:
+
+usar setNome e setObjetivo
+atualizar dados existentes
+
+
+
+📅 Dia 108 — Contador de Itens 📊
+
+Base: lista simples
+
+Menu:
+
+1 - Adicionar item
+2 - Listar itens
+3 - Mostrar quantidade total
+0 - Sair
+
+👉 novidade:
+
+usar .size()
+retornar número ao invés de string
+
+
+
+📅 Dia 109 — Sistema com Categorias 🗂️
+Classe:
+nome
+categoria (ex: "estudo", "trabalho")
+Menu:
+
+1 - Adicionar
+2 - Listar
+3 - Filtrar por categoria
+0 - Sair
+
+👉 novidade:
+
+comparar strings com lógica
+filtro mais específico
+
+
+
+📅 Dia 110 — Busca + Remoção combinada 🔍❌
+Menu:
+
+1 - Adicionar
+2 - Buscar
+3 - Remover por parte do nome
+0 - Sair
+
+👉 novidade:
+
+usar .contains() + remover
+cuidado com loop (Iterator ou índice)
+
+
+
+📅 Dia 111 — Sistema com Limite Inteligente ⚠️
+Regra:
+máximo 5 itens
+NÃO pode adicionar nome repetido
+
+👉 novidade:
+
+validação dupla:
+limite + duplicado
+
+
+
+📅 Dia 112 — Ordenação simples 🔼
+Menu:
+
+1 - Adicionar números
+2 - Listar
+3 - Ordenar crescente
+0 - Sair
+
+👉 novidade:
+
+Collections.sort(lista)
+
+
+
+📅 Dia 113 — Mini Sistema Final 2.0 💥
+
+Escolha um:
+
+tarefas (melhorar o seu)
+estoque
+usuários
+Deve ter:
+adicionar
+listar
+buscar
+remover
+editar
+validações
+(extra) ordenação ou filtro
+
+👉 objetivo:
+
+juntar TUDO que você aprendeu
