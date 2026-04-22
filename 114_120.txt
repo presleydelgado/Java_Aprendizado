@@ -1,0 +1,134 @@
+📅 Dia 114 — O @Override Básico (ToString)
+
+Conceito: Por padrão, quando você imprime um objeto, o Java mostra um código estranho (o endereço de memória). Vamos usar o @Override para mudar isso.
+
+Classe: Produto (nome, preco)
+Menu:
+
+    Adicionar Produto
+
+    Listar (apenas dar um System.out.println no objeto)
+
+    Sair
+
+👉 Novidade:
+
+    Na classe Produto, digite toString e deixe o IDE gerar ou escreva manualmente o @Override public String toString().
+
+    O objetivo é que, ao listar, o Java use a sua versão da descrição do objeto.
+
+📅 Dia 115 — Calculadora de Bônus (Herança)
+
+Conceito: Criar uma classe base e uma especializada que altera um cálculo.
+
+Classes: * Funcionario (metodo calcularBonus() retorna 10% do salário)
+
+    Gerente (Herda de Funcionario, mas o @Override calcularBonus() retorna 20%)
+
+Menu:
+
+    Adicionar Funcionario
+
+    Adicionar Gerente
+
+    Listar nomes e bônus
+
+    Sair
+
+👉 Novidade:
+
+    Usar extends e sobrescrever o método de cálculo apenas no Gerente.
+
+📅 Dia 116 — Sistema de Notificações
+
+Conceito: Diferentes formas de "enviar" uma mensagem usando a mesma base.
+
+Classe Base: Mensagem (método enviar())
+Subclasses: SMS e Email
+
+Menu:
+
+    Enviar SMS (digitar texto)
+
+    Enviar Email (digitar texto)
+
+    Sair
+
+👉 Novidade:
+
+    Cada subclasse terá um @Override public void enviar().
+
+    O SMS pode imprimir: [SMS] + texto, o Email: [Diretório Acadêmico] + texto.
+
+📅 Dia 117 — Verificação de Igualdade (.equals)
+
+Conceito: O Java não sabe se dois objetos são "iguais" pelo conteúdo, apenas pela memória. Vamos mudar isso.
+
+Classe: Socio (id, nome)
+Regra: Não pode adicionar dois sócios com o mesmo ID.
+
+👉 Novidade:
+
+    Use o @Override no método equals(Object obj).
+
+    Na hora de adicionar, use lista.contains(novoObject) para validar. O Java agora usará a sua lógica de ID para decidir se já existe.
+
+📅 Dia 118 — Sons de Animais (Polimorfismo)
+
+Conceito: Chamar o mesmo método em uma lista de objetos diferentes.
+
+Classe: Animal (metodo fazerSom())
+Subclasses: Cachorro (Au Au), Gato (Miau)
+
+Menu:
+
+    Adicionar Cachorro
+
+    Adicionar Gato
+
+    Ouvir todos (Loop na lista chamando .fazerSom())
+
+👉 Novidade:
+
+    Crie uma ArrayList<Animal>. Mesmo que você adicione gatos e cachorros, o @Override garantirá que cada um faça o som correto no loop.
+
+📅 Dia 119 — Formatador de Preços (Moedas)
+
+Conceito: Sobrescrever um método para mudar a estética do dado.
+
+Classe: Conta (saldo)
+Subclasses: ContaBrasil, ContaEUA
+
+Menu:
+
+    Adicionar saldo
+
+    Exibir formatado
+
+    Sair
+
+👉 Novidade:
+
+    O método exibir() na ContaBrasil usa @Override para colocar R$. Na ContaEUA, usa $.
+
+📅 Dia 120 — Mini Sistema Final 3.0 (O Desafio)
+
+Objetivo: Consolidar Herança e Sobrescrita.
+
+Tema: Sistema de Pagamentos.
+
+    Classe Pagamento (valor)
+
+    Subclasse PagamentoCartao (Adiciona 5% de taxa no @Override do valor final)
+
+    Subclasse PagamentoPix (Dá 10% de desconto no @Override do valor final)
+
+Menu:
+
+    Registrar Pagamento (Escolher tipo e valor)
+
+    Listar Histórico (Usando o toString() que você aprendeu no Dia 114)
+
+    Total processado no dia
+
+    Sair
