@@ -1,0 +1,67 @@
+Dia 121 — Associação de Classes (O Dono e o Objeto)
+
+O que é: Na vida real, objetos "possuem" outros objetos. Um Cliente possui um Endereco, um Carro possui um Motor.
+
+    A Classe Livro: Deve ter String titulo e String autor.
+
+    A Classe Usuario: Deve ter String nome e um ArrayList<Livro> meusLivros.
+
+    A Lógica: No menu, quando você emprestar um livro, o código deve ser algo como: usuario.getMeusLivros().add(livroEscolhido).
+
+Dia 122 — Tratamento de Erros (Try-Catch)
+
+O que é: Evitar que o programa dê "Crash" (feche sozinho) quando o usuário faz besteira.
+
+    O Problema: Se o código espera um nextInt() e o usuário digita "abc", o Java lança uma InputMismatchException.
+
+    A Solução:
+    Java
+
+    try {
+        opcao = scanner.nextInt();
+    } catch (InputMismatchException e) {
+        System.out.println("Apenas números, por favor!");
+        scanner.nextLine(); // Limpa o erro do teclado
+    }
+
+Dia 123 — Interface de Autenticação
+
+O que é: Criar padrões de segurança. Nem todo mundo no sistema pode fazer as mesmas coisas.
+
+    O Contrato: A interface Autenticavel obriga a ter o método boolean validar(String senha).
+
+    Diferença: Na classe Gerente, o método validar retorna true se a senha tiver 8 caracteres. Na classe Cliente, basta ter 4. Isso mostra como uma interface pode ter regras diferentes para o mesmo objetivo.
+
+Dia 124 — Classes Abstratas (O Meio-Termo)
+
+O que é: Uma classe abstrata é como uma interface, mas ela pode "ajudar" as filhas com código já pronto.
+
+    Diferença Crucial: Interfaces não podem ter variáveis de estado (como String modelo), mas classes abstratas sim.
+
+    Aplicação: Se Moto e Caminhao sempre precisam de um anoFabricacao, coloque isso na abstract class Veiculo. Você escreve uma vez e as duas herdam automaticamente.
+
+Dia 125 — Ordenação (Comparable)
+
+O que é: Aprender a organizar listas (essencial para relatórios).
+
+    A Mágica: Para ordenar uma lista de objetos (como Produto), você precisa ensinar ao Java o que é "maior" e o que é "menor".
+
+    O Caminho: Sua classe Produto vai usar implements Comparable<Produto>. Isso vai te obrigar a criar um método compareTo.
+
+Dia 126 — "Soft Delete" (Inativação)
+
+O que é: Em bancos de dados profissionais, quase nunca deletamos um dado de verdade (para não perder o histórico). Nós apenas o "escondemos".
+
+    O Atributo: Adicione private boolean ativo = true; na sua classe.
+
+    O Filtro: No seu loop for, você adiciona um if (item.isAtivo()). Se for falso, o programa pula aquele item e ele "desaparece" da lista do usuário, mas continua na memória.
+
+Dia 127 — O Grande Final: Sistema de Pedidos
+
+O que é: O teste final de lógica. É um mini-ERP.
+
+    Estrutura: Um Pedido tem um ArrayList<ItemPedido>.
+
+    O Polimorfismo: ItemPedido é uma interface. Pizza e Suco implementam ela.
+
+    O Cálculo: O Pedido percorre a lista, soma os preços e, no final, aplica uma lógica de "Taxa de Entrega" ou "Desconto de Fidelidade".
