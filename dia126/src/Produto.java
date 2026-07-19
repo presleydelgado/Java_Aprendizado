@@ -14,7 +14,7 @@ public class Produto {
     public String getNome(){return nome;}
     public double getPreco(){return preco;}
 
-    public boolean isAtivo(){return ativo;} //chega o status
+    public boolean isAtivo(){return ativo;} //checa o status
     public void setAtivo(boolean ativo){this.ativo = ativo;} //muda o status
 
     @Override
